@@ -1,0 +1,130 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.articles{
+    
+    color:white;
+    text-align: center;
+    /* 444-top: 20px; */
+}
+/* .articlelist{
+    margin-top:20px;
+    text-align: center;
+} */
+
+.link{
+    text-align: center;
+    
+    /* border:1px solid white; */
+}
+/* article */
+.singlearticle{
+    margin-top:20px;
+    color:rgb(204, 131, 198);
+    text-align: center;
+}
+.para{
+    color:white;
+    text-align: justify;
+    font-size:20px;
+}
+
+.articlelink{
+  
+    text-decoration: none;
+    color:darkcyan;
+    text-align:justify;
+    
+
+    
+}
+
+.buttons{
+
+   margin-left:28%;
+/* align-items: center; */
+   padding: 9px;
+   /* position: fixed; */
+   /* margin-top: -150px; */
+}
+.buttons button{
+    /* padding: 25px; */
+    
+    width:25%;
+    height:2.4em;
+    
+    background-color: rgb(13, 89, 241);
+    color: white;
+    text-decoration: none;
+
+}
+button:hover{
+    background-color: rgb(72, 139, 226);
+}
+
+.like{
+    width:27px; 
+    height:27px; 
+    cursor:pointer;
+    position:relative;
+    top:40px;
+    left:39.5%;
+    background-color:transparent;
+}
+
+.upvotes{
+    position:relative;
+    left:42%;
+    font-size:22px;
+    top:12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(9, 241, 172);
+}
+
+
+.comments-head{
+    margin-left: 100px;
+    margin-top: 50px;
+    text-decoration: underline;
+     
+}
+.comments{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.add-comment{
+    margin-left: 100px;
+    margin-top: 50px;
+    /* position: absolute;
+    top: 150px; */
+    width: 100px;
+    height: 100px;
+}
+
+.add-comment h3{
+    width: 200px;
+}
+
+.add-comment input,textarea{
+   
+    display: block;
+    width: 300px;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border: 2px solid black;
+    margin-bottom: 16px;
+}
+
+.add-comment button {
+    display: block;
+    width: 320px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+  }

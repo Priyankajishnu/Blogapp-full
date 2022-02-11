@@ -1,0 +1,37 @@
+/* .signup{
+    text-align: center;
+    color: darkcyan;
+} */
+.pretext{
+    color:white;
+ }
+ .error{
+    color:red;
+} 
+
+.main{
+    padding-left:50px;
+    background-color: white;
+    border:1px solid black;
+    height:450px;
+    width:400px;
+    margin-left: 32%;
+    margin-top: 100px;
+
+}
+
+.label{
+    margin-left: 100px;
+    color:darkcyan;
+    font-size: 30px;
+}
+.field{
+    padding:8px;
+    width:80%;
+}
+.button{
+    margin-left: 75px;
+    width:50%;
+    padding:10px;
+    background-color: rgb(15, 196, 15);
+}

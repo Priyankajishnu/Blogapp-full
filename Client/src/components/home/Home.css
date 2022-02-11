@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200vh;
+}
+.home{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ; 
+   }
+
+#head{
+    margin-top: 40px;
+    color:rgb(133, 118, 231);
+    text-align: center;
+
+}
+.para{
+    color:white;
+    text-align:justify;
+    padding: 40px;
+    margin: 20px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": { 
+    "start": "node index.js", 
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build" 
+  },
+  "engines":{
+    "node":"v16.13.0"
+  },
+  "author": "Priyanka",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.0"
+  }
+}
